@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level6"
+    android:background="@mipmap/soru_isareti">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/seffaf_siyah_hex_5"
+        android:fontFamily="sans-serif-black"
+        android:text="  WHICH IS THE BIGGER?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/purple"
+        android:textSize="36sp"
+        app:layout_constraintVertical_bias="0.186" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="155dp"
+        android:onClick="onClickButton1"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:background="@color/seffaf_beyaz_hex_12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:onClick="onClickButton2"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:background="@color/seffaf_beyaz_hex_12"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="33dp"
+        android:onClick="onClickButton3"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:background="@color/seffaf_beyaz_hex_12"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="onClickButton4"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:background="@color/seffaf_beyaz_hex_12"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:background="@color/seffaf_siyah_hex_5"
+        android:lineSpacingExtra="24sp"
+        android:text="SCORE: "
+        android:textAllCaps="false"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/level6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:text=" LEVEL 6"
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black" />
+
+
+</RelativeLayout>
